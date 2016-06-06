@@ -1,5 +1,5 @@
 //
-//  FISLocationsTableViewController.h
+//  FISTriviaTableViewController.h
 //  locationTrivia-tableviews
 //
 //  Created by John Richardson on 6/6/16.
@@ -8,9 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FISLocationsTableViewController : UITableViewController
+@interface FISTriviaTableViewController : UITableViewController
 
-@property (nonatomic) NSArray *locations;
 @property (nonatomic) NSArray *trivia;
 
 @end

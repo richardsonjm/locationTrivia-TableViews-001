@@ -8,6 +8,7 @@
 
 #import "FISLocationsTableViewController.h"
 #import "FISLocation.h"
+#import "FISTriviaTableViewController.h"
 
 @implementation FISLocationsTableViewController
 
@@ -38,6 +39,17 @@
     cell.textLabel.text = location.name;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%lu",[location.trivia count]];
     return cell;
+}
+
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    self.trivia = [self.locations[indexPath.row] trivia];
+    [self performSegueWithIdentifier:@"locationTrivia" sender:self];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    FISTriviaTableViewController *TTVC = [segue destinationViewController];
+    TTVC.trivia = self.trivia;
 }
 
 

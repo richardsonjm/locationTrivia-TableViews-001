@@ -26,6 +26,7 @@
 		D892183519543EF200FF6E4A /* FISLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D892183219543EF200FF6E4A /* FISLocation.m */; };
 		D892183819545B8B00FF6E4A /* locationTriviaViewsSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = D892183719545B8B00FF6E4A /* locationTriviaViewsSpec.m */; };
 		D93952A91D05F6000099AFD8 /* FISLocationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93952A81D05F6000099AFD8 /* FISLocationsTableViewController.m */; };
+		D93952AC1D05FA8E0099AFD8 /* FISTriviaTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93952AB1D05FA8E0099AFD8 /* FISTriviaTableViewController.m */; };
 		FA36BC3C4FF2439DB1542EE5 /* libPods-locationTrivia-tableviewsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BFEA706CF3F4F46BA0BF111 /* libPods-locationTrivia-tableviewsTests.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		D892183719545B8B00FF6E4A /* locationTriviaViewsSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = locationTriviaViewsSpec.m; sourceTree = "<group>"; };
 		D93952A71D05F6000099AFD8 /* FISLocationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISLocationsTableViewController.h; sourceTree = "<group>"; };
 		D93952A81D05F6000099AFD8 /* FISLocationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISLocationsTableViewController.m; sourceTree = "<group>"; };
+		D93952AA1D05FA8E0099AFD8 /* FISTriviaTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISTriviaTableViewController.h; sourceTree = "<group>"; };
+		D93952AB1D05FA8E0099AFD8 /* FISTriviaTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISTriviaTableViewController.m; sourceTree = "<group>"; };
 		FCC73470A40D7689B5AE93AD /* Pods-locationTrivia-tableviewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-locationTrivia-tableviewsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-locationTrivia-tableviewsTests/Pods-locationTrivia-tableviewsTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,8 @@
 				D89217FD19543E5800FF6E4A /* Supporting Files */,
 				D93952A71D05F6000099AFD8 /* FISLocationsTableViewController.h */,
 				D93952A81D05F6000099AFD8 /* FISLocationsTableViewController.m */,
+				D93952AA1D05FA8E0099AFD8 /* FISTriviaTableViewController.h */,
+				D93952AB1D05FA8E0099AFD8 /* FISTriviaTableViewController.m */,
 			);
 			path = "locationTrivia-tableviews";
 			sourceTree = "<group>";
@@ -324,6 +329,7 @@
 				D93952A91D05F6000099AFD8 /* FISLocationsTableViewController.m in Sources */,
 				D892180319543E5800FF6E4A /* main.m in Sources */,
 				4D5549111BC81527001E3D77 /* FISTrivium.m in Sources */,
+				D93952AC1D05FA8E0099AFD8 /* FISTriviaTableViewController.m in Sources */,
 				D892183519543EF200FF6E4A /* FISLocation.m in Sources */,
 				D892180719543E5800FF6E4A /* FISAppDelegate.m in Sources */,
 			);
