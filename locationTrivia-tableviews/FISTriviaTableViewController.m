@@ -13,7 +13,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.accessibilityLabel = @"Trivia Table";
+    self.view.accessibilityLabel = @"Trivia Table";
     self.view.accessibilityIdentifier = @"Trivia Table";
 }
 

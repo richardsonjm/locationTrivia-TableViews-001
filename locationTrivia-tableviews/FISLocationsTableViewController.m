@@ -14,8 +14,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.accessibilityLabel = @"Table";
-    self.view.accessibilityIdentifier = @"Table";
+    self.view.accessibilityLabel = @"Locations Table";
+    self.view.accessibilityIdentifier = @"Locations Table";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -51,6 +51,5 @@
     FISTriviaTableViewController *TTVC = [segue destinationViewController];
     TTVC.trivia = self.trivia;
 }
-
 
 @end
